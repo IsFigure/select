@@ -35,7 +35,7 @@
 		props: {
 			data1: {
 				type: Array,
-				default: []
+				default:()=>[]
 			},
 		},
 		data() {
